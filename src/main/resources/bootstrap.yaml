@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/tw-cloud-native/configs.git
+          skipSslValidation: true
+          search-paths: '{application}/{profile}'
