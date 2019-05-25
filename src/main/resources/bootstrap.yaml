@@ -7,4 +7,4 @@ spring:
         git:
           uri: https://github.com/tw-cloud-native/configs.git
           skipSslValidation: true
-          search-paths: '{application}/{profile}'
+          search-paths: '{profile}/{application}, {profile}/common'
