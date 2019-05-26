@@ -9,7 +9,8 @@ node{
     }
 
     withEnv([
-        'SERVICE=config-server'
+        'SERVICE=config-server',
+        'PROFILES=dev'
     ]){
         stage('Build') {
             sh './build.sh'
