@@ -3,7 +3,6 @@ eureka:
     service-url:
       defaultZone: http://eureka-server:8080/eureka/
 
-# TODO: config rabbitmq for dev env
-#spring:
-#  rabbitmq:
-#    host: rabbitmq
+spring:
+  rabbitmq:
+    host: rabbitmq
