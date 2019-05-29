@@ -1,2 +1,10 @@
 server:
   port: 8888
+
+
+#TODO: enable bus refresh endpoint
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "bus-refresh"
