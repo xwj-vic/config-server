@@ -8,7 +8,7 @@ spring:
         git:
           uri: https://github.com/tw-cloud-native/configs.git
           skipSslValidation: true
-          search-paths: '{profile}/common, {profile}/{application}'
+          search-paths: '{profile}/{application}'
 eureka:
   client:
     service-url:
