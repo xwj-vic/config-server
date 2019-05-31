@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/tw-cloud-native/configs.git
+          uri: https://github.com/xwj-vic/configs.git
           skipSslValidation: true
           #TODO: support common config
           search-paths: '{profile}/{application}'
