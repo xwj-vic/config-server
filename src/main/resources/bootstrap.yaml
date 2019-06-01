@@ -9,10 +9,11 @@ spring:
           uri: https://github.com/xwj-vic/configs.git
           skipSslValidation: true
           #TODO: support common config
-          search-paths: '{profile}/{application}'
+          search-paths: '{profile}/common,{profile}/{application}'
+      profile: dev
 eureka:
   instance:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://localhost:8080/eureka/
+      defaultZone: http://localhost:8090/eureka/
